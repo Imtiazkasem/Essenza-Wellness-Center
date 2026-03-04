@@ -2,6 +2,7 @@
 import React, { useRef, useState } from "react";
 import { ChevronDown, Phone, Menu, X } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const navData = {
   topbar: {
@@ -72,6 +73,12 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileDropdown, setMobileDropdown] = useState(null);
   const closeTimer = useRef(null);
+  const pathname = usePathname();
+
+  const isActive = (href) => {
+    if (href === "/") return pathname === "/";
+    return pathname === href || pathname.startsWith(href + "/");
+  };
 
   const openMenu = (idx) => {
     if (closeTimer.current) clearTimeout(closeTimer.current);
@@ -135,7 +142,11 @@ const Navbar = () => {
                   >
                     <Link
                       href={item.href}
-                      className="flex items-center gap-1 px-3.5 py-2.5 text-text no-underline text-base font-medium rounded-md hover:bg-primary/5 transition-colors"
+                      className={`flex items-center gap-1 px-3.5 py-2.5 no-underline text-base font-medium rounded-md transition-colors ${
+                        isActive(item.href)
+                          ? "text-primary bg-primary/5"
+                          : "text-text hover:bg-primary/5"
+                      }`}
                     >
                       {item.label}
                       {item.children && (
@@ -164,7 +175,11 @@ const Navbar = () => {
                             <a
                               key={cidx}
                               href={child.href}
-                              className="block px-4 py-3 text-text no-underline text-sm rounded-md hover:bg-primary/5 transition-colors"
+                              className={`block px-4 py-3 no-underline text-sm rounded-md transition-colors ${
+                                isActive(child.href)
+                                  ? "text-primary font-medium bg-primary/5"
+                                  : "text-text hover:bg-primary/5"
+                              }`}
                             >
                               {child.label}
                             </a>
@@ -245,7 +260,11 @@ const Navbar = () => {
                       <button
                         type="button"
                         onClick={() => setMobileDropdown(isOpen ? null : idx)}
-                        className="flex w-full items-center justify-between py-4 text-text text-left text-base font-medium bg-transparent border-none cursor-pointer"
+                        className={`flex w-full items-center justify-between py-4 text-left text-base font-medium bg-transparent border-none cursor-pointer ${
+                          isActive(item.href) || item.children?.some((c) => isActive(c.href))
+                            ? "text-primary"
+                            : "text-text"
+                        }`}
                         aria-expanded={isOpen}
                         aria-controls={`drawer-section-${idx}`}
                       >
@@ -260,7 +279,9 @@ const Navbar = () => {
                     ) : (
                       <Link
                         href={item.href}
-                        className="block py-4 text-text no-underline text-base font-medium"
+                        className={`block py-4 no-underline text-base font-medium ${
+                          isActive(item.href) ? "text-primary" : "text-text"
+                        }`}
                         onClick={() => {
                           setMobileMenuOpen(false);
                           setMobileDropdown(null);
@@ -284,7 +305,11 @@ const Navbar = () => {
                               <Link
                                 key={cidx}
                                 href={child.href}
-                                className="block py-2 text-muted no-underline text-base hover:text-text transition-colors"
+                                className={`block py-2 no-underline text-base transition-colors ${
+                                  isActive(child.href)
+                                    ? "text-primary font-medium"
+                                    : "text-muted hover:text-text"
+                                }`}
                                 onClick={() => {
                                   setMobileMenuOpen(false);
                                   setMobileDropdown(null);
