@@ -18,6 +18,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          src="https://beta.leadconnectorhq.com/loader.js"
+          data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="69af38a803fc835e610787e0"
+        ></script>
+      </head>
       <body className={`${inter.variable}  antialiased`}>
         <header className="sticky top-0 z-50">
           <Navbar />
