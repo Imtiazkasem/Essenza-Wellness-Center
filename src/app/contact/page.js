@@ -18,13 +18,13 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email Us",
-    value: "hello@essenzawellness.com",
-    href: "mailto:hello@essenzawellness.com",
+    value: "Info@essenzawellnesscenter.com",
+    href: "mailto:Info@essenzawellnesscenter.com",
   },
   {
     icon: MapPin,
     label: "Visit Us",
-    value: "123 Wellness Drive, Suite 100\nSan Francisco, CA 94102",
+    value: "8950 Villa La Jolla Drive, Building C,\nSuite 212, La Jolla, CA 92037",
     href: null,
   },
   {

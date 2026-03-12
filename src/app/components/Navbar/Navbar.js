@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import { ChevronDown, Phone, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const navData = {
   topbar: {
@@ -126,12 +127,22 @@ const Navbar = () => {
               </button>
 
               {/* Logo */}
-              <Link
+              <Link href="/" className="flex items-center">
+                <Image
+                  src="/logo.png"
+                  alt="Logo"
+                  width={160}
+                  height={50}
+                  priority
+                  className="w-28 md:w-36 lg:w-44 h-auto"
+                />
+              </Link>
+              {/* <Link
                 href="/"
                 className="text-2xl font-semibold text-text no-underline tracking-tight"
               >
                 Essenza
-              </Link>
+              </Link> */}
             </div>
 
             <div className="flex items-center">
@@ -265,7 +276,8 @@ const Navbar = () => {
                         type="button"
                         onClick={() => setMobileDropdown(isOpen ? null : idx)}
                         className={`flex w-full items-center justify-between py-4 text-left text-base font-medium bg-transparent border-none cursor-pointer ${
-                          isActive(item.href) || item.children?.some((c) => isActive(c.href))
+                          isActive(item.href) ||
+                          item.children?.some((c) => isActive(c.href))
                             ? "text-primary"
                             : "text-text"
                         }`}

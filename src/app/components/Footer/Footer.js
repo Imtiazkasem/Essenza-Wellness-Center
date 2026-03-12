@@ -50,8 +50,8 @@ const siteData = {
     ],
     contact: {
       phone: "(555) 123-4567",
-      email: "info@essenzawellness.com",
-      address: "123 Wellness Drive, Suite 200, Your City, ST 12345",
+      email: "Info@essenzawellnesscenter.com",
+      address: "8950 Villa La Jolla Drive, Building C,\nSuite 212, La Jolla, CA 92037",
       hours: ["Mon–Fri: 9am–5pm", "Sat: By appointment", "Sun: Closed"],
     },
     legal: [
