@@ -42,9 +42,12 @@ const ContactPage = () => {
                 <div>
                   <p className="text-sm text-muted mb-1">Visit Us</p>
                   <p className="text-text font-semibold">
-                    123 Wellness Drive, Suite 100
+                    8950 Villa La Jolla Drive, Building C,
                     <br />
-                    San Francisco, CA 94102
+                     Suite 212, La Jolla, CA 92037
+                    {/* 123 Wellness Drive, Suite 100
+                    <br />
+                    San Francisco, CA 94102 */}
                   </p>
                 </div>
               </div>
