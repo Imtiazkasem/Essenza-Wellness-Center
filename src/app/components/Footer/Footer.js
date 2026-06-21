@@ -13,7 +13,6 @@ const siteData = {
           { label: "About", href: "/about" },
           { label: "Our Philosophy", href: "/about/philosophy" },
           { label: "Clinical Model", href: "/about/clinical-model" },
-          { label: "Our Team", href: "/team" },
         ],
       },
       {
@@ -51,7 +50,7 @@ const siteData = {
     contact: {
       phone: "(555) 123-4567",
       email: "Info@essenzawellnesscenter.com",
-      address: "8950 Villa La Jolla Drive, Building C,\nSuite 212, La Jolla, CA 92037",
+      address: "10777 Caminito Alvarez, San Diego, CA 92126",
       hours: ["Mon–Fri: 9am–5pm", "Sat: By appointment", "Sun: Closed"],
     },
     legal: [

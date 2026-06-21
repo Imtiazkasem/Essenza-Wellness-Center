@@ -102,12 +102,6 @@ export default function sitemap() {
       priority: 0.7,
     },
     {
-      url: `${BASE_URL}/team`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
       url: `${BASE_URL}/resources`,
       lastModified: new Date(),
       changeFrequency: "weekly",

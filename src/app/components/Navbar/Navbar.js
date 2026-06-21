@@ -64,7 +64,6 @@ const navData = {
     },
     { label: "Diagnostics & Technology", href: "/diagnostics-technology" },
     { label: "Conditions", href: "/conditions" },
-    { label: "Our Team", href: "/team" },
     { label: "Resources", href: "/resources" },
     { label: "Insurance & Pricing", href: "/insurance-pricing" },
     { label: "Contact", href: "/contact" },

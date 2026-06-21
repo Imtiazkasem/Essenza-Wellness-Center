@@ -24,7 +24,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Visit Us",
-    value: "8950 Villa La Jolla Drive, Building C,\nSuite 212, La Jolla, CA 92037",
+    value: "10777 Caminito Alvarez, San Diego, CA 92126",
     href: null,
   },
   {
