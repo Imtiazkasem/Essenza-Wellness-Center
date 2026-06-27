@@ -106,7 +106,7 @@ function Select({ error, children, className = "", ...props }) {
   );
 }
 
-export default function EssenzaMembershipAgreement() {
+export default function MedinovaMembershipAgreement() {
   const [step, setStep] = useState(0);
   const [submitted, setSubmitted] = useState(false);
 
@@ -278,7 +278,7 @@ export default function EssenzaMembershipAgreement() {
               Agreement Submitted
             </h2>
             <p className="text-[15px] text-muted max-w-115 mx-auto mb-8 leading-relaxed">
-              Thank you. Your Essenza membership agreement has been received. A
+              Thank you. Your Medinova membership agreement has been received. A
               confirmation will be sent to your email shortly.
             </p>
             <div className="bg-bg border border-border rounded-lg p-6 max-w-105 mx-auto mb-7 text-left">
@@ -559,11 +559,11 @@ export default function EssenzaMembershipAgreement() {
               {[
                 {
                   h: "Purpose",
-                  p: "This Agreement describes payment options offered by Essenza Mind and Body Longevity Clinic. This Agreement is not health insurance and does not replace your health plan. You should continue to maintain health insurance coverage.",
+                  p: "This Agreement describes payment options offered by Medinova Mind and Body Longevity Clinic. This Agreement is not health insurance and does not replace your health plan. You should continue to maintain health insurance coverage.",
                 },
                 {
                   h: "Not for Emergencies",
-                  p: "Essenza does not provide emergency care. If you believe you have a medical emergency, call 911 or go to the nearest emergency department.",
+                  p: "Medinova does not provide emergency care. If you believe you have a medical emergency, call 911 or go to the nearest emergency department.",
                 },
                 {
                   h: "Insurance and Financial Responsibility",
@@ -571,7 +571,7 @@ export default function EssenzaMembershipAgreement() {
                 },
                 {
                   h: "Option 1 — Visit Fees",
-                  p: "Office visits are billed separately. Self-pay rates: 30-minute visit $500 · 60-minute visit $1,000. Procedures, tests, and other services billed separately per Essenza's fee schedule.",
+                  p: "Office visits are billed separately. Self-pay rates: 30-minute visit $500 · 60-minute visit $1,000. Procedures, tests, and other services billed separately per Medinova's fee schedule.",
                 },
                 {
                   h: "Option 2 — Exclusions",
@@ -579,15 +579,15 @@ export default function EssenzaMembershipAgreement() {
                 },
                 {
                   h: "Clinical Disclosures",
-                  p: "Screening tests can produce false-positive and false-negative results and may identify incidental findings. Essenza will review results and recommend next steps but does not guarantee any specific outcome.",
+                  p: "Screening tests can produce false-positive and false-negative results and may identify incidental findings. Medinova will review results and recommend next steps but does not guarantee any specific outcome.",
                 },
                 {
                   h: "Termination and Refund Policy",
-                  p: "Unless required by law, fees are generally non-refundable once services have been initiated. If Essenza terminates this Agreement without cause, the unused prepaid portion will be refunded on a pro-rated basis.",
+                  p: "Unless required by law, fees are generally non-refundable once services have been initiated. If Medinova terminates this Agreement without cause, the unused prepaid portion will be refunded on a pro-rated basis.",
                 },
                 {
                   h: "Assignment",
-                  p: "This Agreement is personal to the patient and is not transferable without Essenza's written approval.",
+                  p: "This Agreement is personal to the patient and is not transferable without Medinova's written approval.",
                 },
               ].map(({ h, p }) => (
                 <div key={h} className="mb-3.5">

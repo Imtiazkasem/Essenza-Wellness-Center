@@ -3,9 +3,9 @@ import { ArrowRight, ClipboardCheck, Route, Shield, BarChart3 } from "lucide-rea
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Clinical Model | Essenza Wellness Center",
+  title: "Clinical Model | Medinova Wellness Center",
   description:
-    "Understand the integrated, four-phase clinical model that guides every patient journey at Essenza Wellness Center.",
+    "Understand the integrated, four-phase clinical model that guides every patient journey at Medinova Wellness Center.",
 };
 
 const steps = [

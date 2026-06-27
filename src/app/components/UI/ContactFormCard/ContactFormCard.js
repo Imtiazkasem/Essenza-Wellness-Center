@@ -231,7 +231,7 @@ export default function ContactFormCard() {
               />
               <span>
                 I consent to receive marketing text messages from
-                <strong> Essenza Wellness Center</strong> at the phone number
+                <strong> Medinova Wellness Center</strong> at the phone number
                 provided. Frequency may vary. Message & data rates may apply.
                 Text HELP for assistance, reply STOP to opt out.
               </span>
@@ -256,7 +256,7 @@ export default function ContactFormCard() {
               />
               <span>
                 I consent to receive non-marketing text messages from
-                <strong> Essenza Wellness Center</strong> about appointment
+                <strong> Medinova Wellness Center</strong> about appointment
                 reminders, order updates, etc. Message & data rates may apply.
                 Text HELP for assistance, reply STOP to opt out.
               </span>
@@ -279,7 +279,7 @@ export default function ContactFormCard() {
         </button>
 
         <p className="text-xs text-muted text-center">
-          By submitting, you agree to be contacted by Essenza Wellness Center.
+          By submitting, you agree to be contacted by Medinova Wellness Center.
           Do not include sensitive medical details in this form.
         </p>
       </form>

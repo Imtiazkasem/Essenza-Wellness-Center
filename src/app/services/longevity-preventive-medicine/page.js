@@ -3,7 +3,7 @@ import { ArrowRight, Heart, BarChart3, Microscope, Shield } from "lucide-react";
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Longevity & Preventive Medicine | Essenza Wellness Center",
+  title: "Longevity & Preventive Medicine | Medinova Wellness Center",
   description:
     "Advanced longevity protocols and preventive medicine to optimize healthspan, metabolic health, and cognitive vitality.",
 };

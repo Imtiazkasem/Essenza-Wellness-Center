@@ -3,7 +3,7 @@ import { ArrowRight, Users, Heart, Shield, BarChart3, Leaf, Baby, Sparkles, Chec
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Women's Health | Essenza Wellness Center",
+  title: "Women's Health | Medinova Wellness Center",
   description:
     "A dedicated women's practice focused on prevention, longevity, and whole-person care from reproductive years through perimenopause and beyond.",
 };
@@ -100,7 +100,7 @@ export default function WomensHealthPage() {
             <span className="text-sm font-medium text-primary">Services</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight tracking-tight">
-            Women's Health <span className="text-highlight">at Essenza</span>
+            Women's Health <span className="text-highlight">at Medinova</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
             A dedicated women's practice focused on prevention, longevity, and whole-person care supporting women's health at every stage of life.
@@ -114,7 +114,7 @@ export default function WomensHealthPage() {
           {/* Intro */}
           <div className="max-w-3xl mx-auto text-center mb-16">
             <p className="text-muted leading-relaxed text-lg">
-              Women's health evolves throughout life from reproductive years through perimenopause and menopause. At Essenza, we provide thoughtful, evidence-based care designed to support women's long-term health, vitality, and longevity through preventive medicine and personalized care plans.
+              Women's health evolves throughout life from reproductive years through perimenopause and menopause. At Medinova, we provide thoughtful, evidence-based care designed to support women's long-term health, vitality, and longevity through preventive medicine and personalized care plans.
             </p>
           </div>
 
@@ -132,7 +132,7 @@ export default function WomensHealthPage() {
               ))}
             </div>
             <div className="bg-bg rounded-2xl p-8 border border-border">
-              <p className="text-text font-semibold mb-4 text-center">At Essenza, our approach focuses on:</p>
+              <p className="text-text font-semibold mb-4 text-center">At Medinova, our approach focuses on:</p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {["Early detection", "Preventive screening", "Personalized risk assessment", "Targeted medical interventions"].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-2">
@@ -152,7 +152,7 @@ export default function WomensHealthPage() {
           {/* Services Grid */}
           <div className="mb-16">
             <h2 className="text-2xl md:text-3xl font-bold text-text text-center mb-10 tracking-tight">
-              Women's Health Services at Essenza
+              Women's Health Services at Medinova
             </h2>
             <p className="text-muted text-center max-w-2xl mx-auto mb-10 leading-relaxed">
               Our program integrates gynecology, preventive medicine, and longevity-focused care, tailored to each stage of life.
@@ -204,7 +204,7 @@ export default function WomensHealthPage() {
                 <Sparkles className="w-6 h-6" aria-hidden="true" />
               </div>
               <h3 className="text-lg font-bold text-text mb-4">Concierge Women's Health Experience</h3>
-              <p className="text-sm text-muted leading-relaxed mb-5">For patients who want a more personalized care experience, Essenza offers:</p>
+              <p className="text-sm text-muted leading-relaxed mb-5">For patients who want a more personalized care experience, Medinova offers:</p>
               <CheckList items={conciergeServices} />
             </div>
 
@@ -212,8 +212,8 @@ export default function WomensHealthPage() {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary text-bg mb-5">
                 <Users className="w-6 h-6" aria-hidden="true" />
               </div>
-              <h3 className="text-lg font-bold text-text mb-4">What Makes Essenza Different</h3>
-              <p className="text-sm text-muted leading-relaxed mb-5">Essenza offers a modern model of women's healthcare centered on prevention, science, and trust.</p>
+              <h3 className="text-lg font-bold text-text mb-4">What Makes Medinova Different</h3>
+              <p className="text-sm text-muted leading-relaxed mb-5">Medinova offers a modern model of women's healthcare centered on prevention, science, and trust.</p>
               <CheckList items={differentiators} color="highlight" />
             </div>
           </div>
@@ -222,7 +222,7 @@ export default function WomensHealthPage() {
           <div className="bg-bg rounded-2xl p-10 border border-border">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               <div>
-                <h3 className="text-xl font-bold text-text mb-5">Common Reasons Women Seek Care at Essenza</h3>
+                <h3 className="text-xl font-bold text-text mb-5">Common Reasons Women Seek Care at Medinova</h3>
                 <CheckList items={commonReasons} />
               </div>
               <div className="text-center md:text-left">
@@ -231,7 +231,7 @@ export default function WomensHealthPage() {
                 </div>
                 <h3 className="text-xl font-bold text-text mb-4">A Proactive Approach to Your Health</h3>
                 <p className="text-muted leading-relaxed mb-8">
-                  Whether your focus is fertility, symptom relief, or long-term prevention, Essenza provides thoughtful, science-driven care designed to support your health at every stage of life.
+                  Whether your focus is fertility, symptom relief, or long-term prevention, Medinova provides thoughtful, science-driven care designed to support your health at every stage of life.
                 </p>
                 <Link
                   href="/contact"

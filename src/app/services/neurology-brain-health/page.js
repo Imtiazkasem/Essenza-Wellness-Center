@@ -3,7 +3,7 @@ import { ArrowRight, Brain, Shield, Microscope, Heart, Users, Star } from "lucid
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Neurology & Brain Health | Essenza Wellness Center",
+  title: "Neurology & Brain Health | Medinova Wellness Center",
   description:
     "Comprehensive migraine and neurological care integrated neurology and psychiatry for migraines, chronic pain, headache disorders, and more.",
 };
@@ -60,7 +60,7 @@ export default function NeurologyBrainHealthPage() {
               Comprehensive Migraine & Neurological Care
             </h2>
             <p className="text-muted leading-relaxed text-lg">
-              At Essenza, our board-certified neurology and psychiatry specialists work together to provide integrated, evidence-based care for neurological and psychological conditions. Because these conditions often overlap, our team focuses on identifying and treating the underlying causes of migraines and chronic pain disorders.
+              At Medinova, our board-certified neurology and psychiatry specialists work together to provide integrated, evidence-based care for neurological and psychological conditions. Because these conditions often overlap, our team focuses on identifying and treating the underlying causes of migraines and chronic pain disorders.
             </p>
           </div>
 
@@ -140,7 +140,7 @@ export default function NeurologyBrainHealthPage() {
                 Migraines are among the leading causes of disability worldwide, yet effective treatment options are available.
               </p>
               <p className="text-muted leading-relaxed mt-4">
-                At Essenza, our mission is to provide timely access to expert evaluation and advanced treatment, helping patients regain control of their health and return to the moments that matter most.
+                At Medinova, our mission is to provide timely access to expert evaluation and advanced treatment, helping patients regain control of their health and return to the moments that matter most.
               </p>
             </div>
           </div>

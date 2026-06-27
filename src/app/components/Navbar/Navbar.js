@@ -3,7 +3,6 @@ import React, { useRef, useState } from "react";
 import { ChevronDown, Phone, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
 
 const navData = {
   topbar: {
@@ -57,7 +56,7 @@ const navData = {
           href: "/services/rehabilitation-functional-assessment",
         },
         {
-          label: "Essenza Membership Agreement",
+          label: "Medinova Membership Agreement",
           href: "/services/essenza-membership-agreement",
         },
       ],
@@ -125,23 +124,13 @@ const Navbar = () => {
                 {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
 
-              {/* Logo */}
-              <Link href="/" className="flex items-center">
-                <Image
-                  src="/logo.png"
-                  alt="Logo"
-                  width={160}
-                  height={50}
-                  priority
-                  className="w-28 md:w-36 lg:w-44 h-auto"
-                />
-              </Link>
-              {/* <Link
+              {/* Brand wordmark */}
+              <Link
                 href="/"
                 className="text-2xl font-semibold text-text no-underline tracking-tight"
               >
-                Essenza
-              </Link> */}
+                Medinova
+              </Link>
             </div>
 
             <div className="flex items-center">
@@ -247,7 +236,7 @@ const Navbar = () => {
                   setMobileDropdown(null);
                 }}
               >
-                Essenza
+                Medinova
               </Link>
 
               <button

@@ -3,7 +3,7 @@ import { ArrowRight, Stethoscope, Brain, Heart, Shield, Zap, FlaskConical } from
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Mental Health & Psychiatry | Essenza Wellness Center",
+  title: "Mental Health & Psychiatry | Medinova Wellness Center",
   description:
     "Comprehensive psychiatric care for depression, anxiety, ADHD, PTSD, and more led by board-certified psychiatrists.",
 };
@@ -56,10 +56,10 @@ export default function MentalHealthPage() {
         <Container>
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-text mb-6 tracking-tight">
-              Expert Psychiatric Care at Essenza
+              Expert Psychiatric Care at Medinova
             </h2>
             <p className="text-muted leading-relaxed text-lg">
-              At Essenza, we provide personalized, evidence-based psychiatric care focused on improving mental health and overall quality of life. Our multidisciplinary team takes a thoughtful, patient-centered approach to diagnosis, treatment planning, and long-term wellness.
+              At Medinova, we provide personalized, evidence-based psychiatric care focused on improving mental health and overall quality of life. Our multidisciplinary team takes a thoughtful, patient-centered approach to diagnosis, treatment planning, and long-term wellness.
             </p>
           </div>
 
@@ -93,7 +93,7 @@ export default function MentalHealthPage() {
                 Advanced Treatments for Depression
               </h2>
               <p className="text-muted leading-relaxed">
-                For patients whose depression has not improved with standard treatments, Essenza offers innovative therapies.
+                For patients whose depression has not improved with standard treatments, Medinova offers innovative therapies.
               </p>
 
               {/* TMS Card */}
@@ -143,7 +143,7 @@ export default function MentalHealthPage() {
               Compassionate, Innovative Care
             </h2>
             <p className="text-muted leading-relaxed max-w-2xl mx-auto mb-8">
-              At Essenza, we combine advanced psychiatric treatments with compassionate care to help patients regain emotional balance, improve daily functioning, and move toward lasting mental wellness.
+              At Medinova, we combine advanced psychiatric treatments with compassionate care to help patients regain emotional balance, improve daily functioning, and move toward lasting mental wellness.
             </p>
             <Link
               href="/contact"

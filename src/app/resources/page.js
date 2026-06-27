@@ -3,9 +3,9 @@ import { ArrowRight, BookOpen, FileText, Brain, Heart, Shield, Microscope } from
 import Container from "../components/Container/Container";
 
 export const metadata = {
-  title: "Resources | Essenza Wellness Center",
+  title: "Resources | Medinova Wellness Center",
   description:
-    "Patient resources, educational guides, and FAQs about mental health, neurology, TMS, ketamine therapy, and longevity medicine at Essenza Wellness Center.",
+    "Patient resources, educational guides, and FAQs about mental health, neurology, TMS, ketamine therapy, and longevity medicine at Medinova Wellness Center.",
 };
 
 const articles = [

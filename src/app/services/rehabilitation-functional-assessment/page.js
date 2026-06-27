@@ -3,7 +3,7 @@ import { ArrowRight, Activity, Brain, Shield, BarChart3 } from "lucide-react";
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Rehabilitation & Functional Assessment | Essenza Wellness Center",
+  title: "Rehabilitation & Functional Assessment | Medinova Wellness Center",
   description:
     "Comprehensive neurological and functional rehabilitation assessments to restore cognitive and physical performance after injury or illness.",
 };

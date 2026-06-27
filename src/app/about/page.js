@@ -3,9 +3,9 @@ import { ArrowRight, Brain, Heart, Microscope, Award, Users, Shield } from "luci
 import Container from "../components/Container/Container";
 
 export const metadata = {
-  title: "About Us | Essenza Wellness Center",
+  title: "About Us | Medinova Wellness Center",
   description:
-    "Learn about Essenza Wellness Center our mission, values, and brain-first approach to longevity and mental wellness.",
+    "Learn about Medinova Wellness Center our mission, values, and brain-first approach to longevity and mental wellness.",
 };
 
 const values = [
@@ -48,14 +48,14 @@ export default function AboutPage() {
         <div className="relative max-w-7xl mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 bg-primary/5 border border-primary/20 rounded-full px-4 py-2 mb-6">
             <div className="w-2 h-2 bg-primary rounded-full" />
-            <span className="text-sm font-medium text-primary">About Essenza</span>
+            <span className="text-sm font-medium text-primary">About Medinova</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight tracking-tight">
             A New Standard in{" "}
             <span className="text-highlight">Brain-Centered Care</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
-            Essenza Wellness Center integrates neuropsychiatry, advanced diagnostics, and longevity medicine to help you achieve lasting cognitive health and vitality.
+            Medinova Wellness Center integrates neuropsychiatry, advanced diagnostics, and longevity medicine to help you achieve lasting cognitive health and vitality.
           </p>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function AboutPage() {
                 We believe the brain is the foundation of every aspect of health. Our mission is to deliver evidence-based, compassionate care that addresses the full spectrum of neurological and psychiatric health from diagnosis to long-term wellness optimization.
               </p>
               <p className="text-muted leading-relaxed">
-                Founded on the principle that cognitive health drives longevity, Essenza brings together board-certified specialists, advanced neurotechnology, and a deeply personalized approach to create care that truly transforms lives.
+                Founded on the principle that cognitive health drives longevity, Medinova brings together board-certified specialists, advanced neurotechnology, and a deeply personalized approach to create care that truly transforms lives.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">

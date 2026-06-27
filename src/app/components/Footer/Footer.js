@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 const siteData = {
-  name: "Essenza Wellness Center",
+  name: "Medinova Wellness Center",
   tagline: "Where Brain Health Drives Longevity",
   footer: {
     columns: [

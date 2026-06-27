@@ -3,9 +3,9 @@ import { ArrowRight, Brain, Shield, Microscope, Heart } from "lucide-react";
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Our Philosophy | Essenza Wellness Center",
+  title: "Our Philosophy | Medinova Wellness Center",
   description:
-    "Discover the brain-first philosophy that shapes every aspect of care at Essenza Wellness Center.",
+    "Discover the brain-first philosophy that shapes every aspect of care at Medinova Wellness Center.",
 };
 
 const principles = [

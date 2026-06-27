@@ -3,9 +3,9 @@ import { ArrowRight, Brain, Heart, Activity, Users, Shield, Zap } from "lucide-r
 import Container from "../components/Container/Container";
 
 export const metadata = {
-  title: "Conditions We Treat | Essenza Wellness Center",
+  title: "Conditions We Treat | Medinova Wellness Center",
   description:
-    "Essenza Wellness Center specializes in treating depression, anxiety, cognitive decline, hormonal imbalance, chronic stress, and many other neuropsychiatric conditions.",
+    "Medinova Wellness Center specializes in treating depression, anxiety, cognitive decline, hormonal imbalance, chronic stress, and many other neuropsychiatric conditions.",
 };
 
 const conditions = [

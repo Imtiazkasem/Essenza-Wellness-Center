@@ -3,7 +3,7 @@ import { ArrowRight, Zap, Brain, Shield, Award } from "lucide-react";
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "TMS Therapy | Essenza Wellness Center",
+  title: "TMS Therapy | Medinova Wellness Center",
   description:
     "FDA-cleared transcranial magnetic stimulation (TMS) therapy for depression, anxiety, and OCD non-invasive, drug-free, proven effective.",
 };
@@ -61,7 +61,7 @@ export default function TMSTherapyPage() {
                 Transcranial Magnetic Stimulation (TMS) uses focused magnetic pulses to stimulate specific neural circuits in the brain that are underactive in depression and other mood disorders. It is performed in our office, requires no anesthesia, and patients can drive themselves home immediately after.
               </p>
               <p className="text-muted leading-relaxed">
-                At Essenza, we guide TMS protocols with qEEG brain mapping for precise targeting maximizing effectiveness and minimizing treatment time.
+                At Medinova, we guide TMS protocols with qEEG brain mapping for precise targeting maximizing effectiveness and minimizing treatment time.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">

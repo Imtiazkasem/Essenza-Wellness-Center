@@ -3,7 +3,7 @@ import { ArrowRight, Droplets, Brain, Shield, Heart } from "lucide-react";
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Ketamine Therapy | Essenza Wellness Center",
+  title: "Ketamine Therapy | Medinova Wellness Center",
   description:
     "Evidence-based ketamine infusions for treatment-resistant depression, anxiety, and chronic pain delivered in a safe, supervised clinical setting.",
 };
@@ -70,7 +70,7 @@ export default function KetamineTherapyPage() {
                 Ketamine is a fast-acting anesthetic that, at sub-anesthetic doses, produces rapid antidepressant and anti-anxiety effects. It works by modulating the brain's glutamate system a fundamentally different mechanism from traditional antidepressants making it effective even for treatment-resistant cases.
               </p>
               <p className="text-muted leading-relaxed">
-                At Essenza, ketamine therapy is delivered as a carefully monitored IV infusion protocol, typically involving 6 sessions over 2–3 weeks, followed by maintenance as needed.
+                At Medinova, ketamine therapy is delivered as a carefully monitored IV infusion protocol, typically involving 6 sessions over 2–3 weeks, followed by maintenance as needed.
               </p>
             </div>
             <div>

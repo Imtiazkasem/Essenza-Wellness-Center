@@ -3,7 +3,7 @@ import { ArrowRight, Zap, Droplets, Brain, Heart, Users, Stethoscope, Activity, 
 import Container from "../components/Container/Container";
 
 export const metadata = {
-  title: "Services | Essenza Wellness Center",
+  title: "Services | Medinova Wellness Center",
   description:
     "Explore our full range of neuropsychiatric, longevity, and wellness services designed to optimize brain health and overall vitality.",
 };

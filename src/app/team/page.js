@@ -3,9 +3,9 @@ import { ArrowRight, Award, Brain, Heart, Microscope } from "lucide-react";
 import Container from "../components/Container/Container";
 
 export const metadata = {
-  title: "Our Team | Essenza Wellness Center",
+  title: "Our Team | Medinova Wellness Center",
   description:
-    "Meet the board-certified specialists at Essenza Wellness Center experts in psychiatry, neurology, longevity medicine, and women's health.",
+    "Meet the board-certified specialists at Medinova Wellness Center experts in psychiatry, neurology, longevity medicine, and women's health.",
 };
 
 const team = [

@@ -3,7 +3,7 @@ import { ArrowRight, Shield, Brain, Heart, Users, Sparkles, Activity } from "luc
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Geriatric & Cognitive Care | Essenza Wellness Center",
+  title: "Geriatric & Cognitive Care | Medinova Wellness Center",
   description:
     "Elevated, concierge-style geriatric care focused on longevity, cognitive vitality, and exceptional personalized health management.",
 };
@@ -52,7 +52,7 @@ export default function GeriatricCarePage() {
               Elevated Geriatric Care
             </h2>
             <p className="text-muted leading-relaxed text-lg">
-              Essenza provides a refined, personalized approach to geriatric medicine designed for individuals who value proactive health management, longevity, and exceptional care. Our concierge-style services focus on optimizing physical health, cognitive vitality, and overall well-being through comprehensive and individualized care plans.
+              Medinova provides a refined, personalized approach to geriatric medicine designed for individuals who value proactive health management, longevity, and exceptional care. Our concierge-style services focus on optimizing physical health, cognitive vitality, and overall well-being through comprehensive and individualized care plans.
             </p>
           </div>
 
@@ -117,7 +117,7 @@ export default function GeriatricCarePage() {
               Aging, Redefined
             </h3>
             <p className="text-muted leading-relaxed max-w-2xl mx-auto mb-8">
-              At Essenza, we believe aging should be active, vibrant, and empowered supported by thoughtful medical care tailored to each individual's goals and lifestyle.
+              At Medinova, we believe aging should be active, vibrant, and empowered supported by thoughtful medical care tailored to each individual's goals and lifestyle.
             </p>
             <Link
               href="/contact"

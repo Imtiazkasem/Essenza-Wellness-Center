@@ -3,9 +3,9 @@ import Container from "../components/Container/Container";
 import ContactFormCard from "../components/UI/ContactFormCard/ContactFormCard";
 
 export const metadata = {
-  title: "Contact Us | Essenza Wellness Center",
+  title: "Contact Us | Medinova Wellness Center",
   description:
-    "Get in touch with Essenza Wellness Center to schedule a consultation, verify insurance, or ask a question. Available in-person and via telehealth.",
+    "Get in touch with Medinova Wellness Center to schedule a consultation, verify insurance, or ask a question. Available in-person and via telehealth.",
 };
 
 const contactInfo = [
@@ -50,7 +50,7 @@ export default function ContactPage() {
             <span className="text-sm font-medium text-primary">Get in Touch</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight tracking-tight">
-            Contact <span className="text-highlight">Essenza</span>
+            Contact <span className="text-highlight">Medinova</span>
           </h1>
           <p className="text-lg md:text-xl text-muted mt-6 max-w-3xl mx-auto leading-relaxed">
             Ready to take the first step? Reach out to schedule a consultation, verify insurance, or simply ask a question. We're here to help.

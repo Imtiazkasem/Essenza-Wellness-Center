@@ -3,7 +3,7 @@ import { ArrowRight, Brain, Zap, Microscope, BarChart3, Activity, Shield } from 
 import Container from "../components/Container/Container";
 
 export const metadata = {
-  title: "Diagnostics & Technology | Essenza Wellness Center",
+  title: "Diagnostics & Technology | Medinova Wellness Center",
   description:
     "State-of-the-art neurotechnology and diagnostic tools including qEEG brain mapping, TMS, advanced labs, and more powering precise, personalized care.",
 };

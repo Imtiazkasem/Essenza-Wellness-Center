@@ -3,9 +3,9 @@ import { ArrowRight, Shield, CreditCard, Phone, FileCheck } from "lucide-react";
 import Container from "../components/Container/Container";
 
 export const metadata = {
-  title: "Insurance & Pricing | Essenza Wellness Center",
+  title: "Insurance & Pricing | Medinova Wellness Center",
   description:
-    "Learn about insurance coverage, payment options, and pricing at Essenza Wellness Center including HSA/FSA eligibility and concierge options.",
+    "Learn about insurance coverage, payment options, and pricing at Medinova Wellness Center including HSA/FSA eligibility and concierge options.",
 };
 
 const paymentOptions = [

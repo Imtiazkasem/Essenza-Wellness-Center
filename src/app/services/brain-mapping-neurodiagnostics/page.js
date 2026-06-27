@@ -3,9 +3,9 @@ import { ArrowRight, Brain, BarChart3, Microscope, Shield } from "lucide-react";
 import Container from "../../components/Container/Container";
 
 export const metadata = {
-  title: "Brain Mapping & Neurodiagnostics | Essenza Wellness Center",
+  title: "Brain Mapping & Neurodiagnostics | Medinova Wellness Center",
   description:
-    "Quantitative EEG (qEEG) brain mapping and advanced neurodiagnostics for precise, personalized treatment planning at Essenza Wellness Center.",
+    "Quantitative EEG (qEEG) brain mapping and advanced neurodiagnostics for precise, personalized treatment planning at Medinova Wellness Center.",
 };
 
 const insights = [
