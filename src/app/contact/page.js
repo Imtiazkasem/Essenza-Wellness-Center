@@ -24,7 +24,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Visit Us",
-    value: "10777 Caminito Alvarez, San Diego, CA 92126",
+    value: "San Diego, CA 92126",
     href: null,
   },
   {

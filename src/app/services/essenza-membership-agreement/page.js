@@ -265,7 +265,7 @@ export default function MedinovaMembershipAgreement() {
             Mind and Body Longevity Clinic
           </p>
           <p className="relative z-10 text-white/50 text-xs mt-2">
-            8950 Villa La Jolla Drive, Building C, Suite 212 · La Jolla, CA 92037
+            La Jolla, CA 92037
           </p>
         </header>
 
@@ -321,7 +321,7 @@ export default function MedinovaMembershipAgreement() {
           Mind and Body Longevity Clinic
         </p>
         <p className="relative z-10 text-white/50 text-xs mt-2">
-          8950 Villa La Jolla Drive, Building C, Suite 212 · La Jolla, CA 92037
+          La Jolla, CA 92037
         </p>
         <div className="relative z-10 inline-block mt-5  text-sm tracking-wider uppercase text-highlight border-t border-b border-highlight/40 px-6 py-1.5">
           Membership & Cash Package Agreement
